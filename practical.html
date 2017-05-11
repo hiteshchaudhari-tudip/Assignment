@@ -3,28 +3,78 @@
 <head>
 
 <style>
-body { font-family : arial; font-size:1; }
-header, footer { background-color: black; color: white; padding: 10px;}
-nav ul li {display: inline; margin:5px;}
+body { 
+		width: 100%;
+		font-family : arial; 
+		font-size:1; 
+		float: left;
+	}
+header, footer { 
+					background-color: black;
+					color: white; 
+					padding: 10px;
+					width: 100%;
+					float: left;
+				}
+nav ul li {
+			display: inline; 
+			margin:5px;
+			float: left;
+		  }
 
-section {margin: 5px; padding: 5px; background-color:lightgrey;}
-article {margin: 5px; padding: 5px; background-color:white;}
+section {
+			width:100%;
+			display: block;
+			float: left;
+			margin: 5px; 
+			padding: 5px; 
+			background-color:lightgrey; 
+			color:black;
+		}
+article {
+			width: 100%;
+			display: block;
+			float: left;
+			margin: 5px; 
+			padding: 5px; 
+			background-color:white;
+		}
 
+div.main {
+		
+		background-color:lightblue; 
+		color:blue; 
+		text-size:20px;
+	}
+
+li a {
+		background-color:lightblue; 
+		text-decoration:none;
+	 }
 </style>
 </head>
 <body>
+<div>
+
 <header>
 <h1><span style="color:red;">Welcome</span></h1>
 </header>
+
 <nav>
 <ul>
-<li>News</li>
-<li>Sports</li>
-<li>weather</li>
+<li><a href="#">News</a></li>
+<li><a href="#">Sports</a></li>
+<li><a href="#">weather</a></li>
+<li><a href="login.html">Login</a></li>
 </ul>
 </nav>
 
-<a href="login.html">Login</a>
+<div class="main">
+<p>urjsvsof  sfksdjkg js fksgj sjf skdj sjf sfj sfs ofsfjs jsfsjf,zsc,mnv fjkchzsd jsd fsjdzf jhcndshf djfj.</p>
+<p>sGZfc sdfhs sdfhs adjhad ahdBSDhjf sfje  jjlajs hjh ncb ruwe sadjkn ncfsdhf jdlksjf etwd smsvdgj asdjh fgsdgf.</p>
+</div>
+
+<div>
 <section>
 <h2>News Section</h2>
 <article>
@@ -54,10 +104,12 @@ uiaou faskfh sdhsdkh</p>
 uiaou faskfh sdhsdkh</p>
 </article>
 </section>
+</div>
 
 <footer>
 <p>&copy; All rights reserved</p>
 </footer>
 
+</div>
 </body>
 </html>
