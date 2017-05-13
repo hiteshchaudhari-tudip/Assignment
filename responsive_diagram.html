@@ -1,0 +1,135 @@
+<!Doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+.outerbox {
+			width: 90vw;
+			height: 105vh;
+			border: 1px solid black;
+			position: relative;
+		  }
+.container1 {
+			  width: 100%;
+			  height: 50%;
+			  display: inline;
+			  position: absolute;
+			}
+.innerbox1 { 
+			  width: 30vw;
+			  height: 30vh;
+			  border: 1px solid black;
+			  position: relative;
+			  top: 5vh;
+			  left: 5vw;
+			}
+.square { 
+		  width: 4vw;
+		  height: 6vh;
+		  border: 1px solid black;
+		  position: absolute;
+		}
+.innerbox2 {
+			  width: 30vw;
+			  height: 30vh;
+			  border: 1px solid black;
+			  position: relative;
+			  top: -25vh;
+			  left: 55vw;
+			}
+.circle {  
+			width: 5vw;
+			height: 10vh;
+			border: 1px solid red;
+			border-radius: 50%;
+			position: absolute;
+		}
+
+#mid {
+		width: 15vw;
+		height: 30vh;
+		border: 1px solid red;
+		border-radius: 50%;
+		margin-top: 35vh;
+		margin-left: 37.5vw;
+		}
+
+.container2 {
+			  width: 100%;
+			  height: 50%;
+			  display: inline;
+			  position: absolute;
+			}
+.innerbox3 {
+			  width: 30vw;
+			  height: 30vh;
+			  border: 1px solid black;
+			  position: relative;
+			  top: 0vh;
+			  left: 5vw;
+			}
+.rectangle {
+			  width: 6vw;
+			  height: 5vh;
+			  border: 1px solid blue;
+			  position: absolute;
+			}
+.innerbox4 {
+			  width: 30vw;
+			  height: 30vh;
+			  border: 1px solid black;
+			  position: relative;
+			  top: -30vh;
+			  left: 55vw;
+			}
+.rsquare {
+			width: 6vw;
+			height: 5vh;
+			border: 1px solid violet;
+			border-radius: 40%;
+			position: absolute;
+		}
+
+</style>
+</head>
+<body>
+<div class="outerbox">
+	<div class="container1">
+		<div class="innerbox1">
+			<div class="square" style="top: 5vh; left: 5vw;"></div>
+			<div class="square" style="top: 5vh; left: 20vw;"></div>
+			<div class="square" style="top: 12vh; left: 12.5vw;"></div>
+			<div class="square" style="top: 20vh; left: 5vw;"></div>
+			<div class="square" style="top: 20vh; left: 20vw;"></div>
+		</div>
+		
+		<div class="innerbox2">
+			<div class="circle"  style="top: 2vh; left: 5vw;"></div>
+			<div class="circle" style="top: 2vh; left: 20vw;"></div>
+			<div class="circle" style="top: 12vh; left: 12.5vw;"></div>
+			<div class="circle" style="top: 18vh; left: 5vw;"></div>
+			<div class="circle" style="top: 18vh; left: 20vw;"></div>
+		</div> 
+	</div>
+	
+	<div id="mid"></div>
+	
+	<div class="container2">
+		<div class="innerbox3">
+			<div class="rectangle" style="top: 5vh; left: 5vw;"></div>
+			<div class="rectangle" style="top: 5vh; left: 20vw;"></div>
+			<div class="rectangle" style="top: 20vh; left: 5vw;"></div>
+			<div class="rectangle" style="top: 20vh; left: 20vw;"></div>
+		</div>
+		
+		<div class="innerbox4">
+			<div class="rsquare" style="top: 5vh; left: 5vw;"></div>
+			<div class="rsquare" style="top: 5vh; left: 20vw;"></div>
+			<div class="rsquare" style="top: 20vh; left: 5vw;"></div>
+			<div class="rsquare" style="top: 20vh; left: 20vw;"></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
