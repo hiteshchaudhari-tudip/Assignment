@@ -1,0 +1,12 @@
+nav ul {
+  padding: 20px;
+  list-style-type: disc;
+  margin: 0; }
+nav li {
+  text-decoration: none; }
+nav a {
+  display: inline;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+/*# sourceMappingURL=nested.css.map */
