@@ -1,0 +1,24 @@
+$font-stack: sans-serif;
+$primary-color: black;
+$backcolor: lightblue;
+$fontsize: 20px;
+
+body { font: $font-stack;
+		color: $primary-color;
+	 }
+
+h1 { font-family: $font-stack;
+	 color: $primary-color;
+	 font-size: $fontsize;
+	}
+	
+.sect { display: block;
+		padding: 20px;
+		background-color: $backcolor;
+	    color: $primary-color;
+	  }
+	  
+#para { display: inline-block;
+		font-size: $font-stack;
+		color: $primary-color;
+		padding: 20px;}
