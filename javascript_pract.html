@@ -1,0 +1,21 @@
+    <!DOCTYPE html>
+    <html>
+        <script type="text/javascript">
+            function isEmpty() {
+                var input = document.getElementById("userInput").value;
+                if (input.length === 0) {
+                   alert("Empty string");
+                    return true;
+                }
+				else{
+					return false;
+				}
+            }
+        </script>
+    </head>
+    <body>
+	Enter the String: <br><br>
+        <input type="text" id="userInput"/>
+        <input type="submit" value="Submit" onclick="isEmpty()" />
+    </body>
+    </html>
